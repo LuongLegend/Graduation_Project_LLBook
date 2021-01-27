@@ -3,13 +3,30 @@ header {
     background-color: lightblue;
     display: flex;
     justify-content: space-between;
-    justify-items: center;
+    align-items: center;
     padding: 0 60px;
-    margin: auto;
+    border-bottom: 1px solid grey;
 }
 
 .logo {
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 36px;
+    height: 36px;
+}
+
+.llbook {
+    font-weight: 700;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.llbook:hover {
+    color: yellowgreen;
+}
+
+.top-search {
+   
+}
+
+.icon-search {
+    font-size: 2rem;
 }
