@@ -1,0 +1,38 @@
+.header {
+    height: 70px;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 0.7fr 2fr 1fr ;
+    column-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    border-bottom: 1px solid grey;
+    &__logo{
+        display: flex;
+        &-img {
+            display: block;
+            width: 36px;
+            height: 36px;
+            margin-right: 16px;
+        }
+        &-llbook {
+            font-weight: 700;
+            font-size: 2rem;
+            cursor: pointer;
+            &:hover {
+                color: yellowgreen;
+            }
+        }
+    }
+    &-icon {
+        margin-right: 20px;
+        font-size: 2rem;
+        color: var(--color-secondary)
+    }
+}
+
+
+.top-search {
+   
+}
